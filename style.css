@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+}
+header{
+    position:sticky;
+    top:0;
+}
+nav{
+    padding: 30px;
+    background-color:#ffffffe9 ;
+    display: flex;
+    justify-content:space-around;
+    border-bottom: 0.5px solid rgb(237, 235, 235);
+    margin-bottom: 20px;
+
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    font-size: larger;
+    font-weight: bold;
+    color: #2563eb;
+    text-decoration: none;
+}
+.nav-links{
+    margin-left: 20px;
+    color: #6b7280;
+    text-decoration: none;
+}
+.Intro{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.subtitle{
+    color:#6b7280;
+}
+.Introbtn1 a{
+    color: white;
+}
+.Introbtn2 a{
+    color: #2563eb;
+}
+.Introbtn1,.Introbtn2{
+    background-color: #2563eb;
+    border: none;
+    border-radius: 8px;
+    padding: 15px 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+.Introbtn2{
+    background-color: #f5f7fa;
+    border: 2px solid #2563eb;
+    color: #2563eb;
+}
+.profilepic{
+    border-radius: 50%;
+}
+#about{
+    width : 1200px;
+    margin : 0 auto;
+    padding: 30px;
+}
+.education, .skills {
+    width: 550px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #edf2f8;
+}
+#EandS{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+}
+#projects div{
+    border: 1px solid rgb(222, 219, 219);
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #edf1fbda;
+}
+.project1, .project2, .project3 {
+    border-radius: 15px;
+}
+#projects {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.contactcards div{
+    width: 550px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #edf2f8
+}
+.contactcards{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 200px;
+}
+footer{
+    padding: 20px;
+    border-top: 1px solid rgb(237, 235, 235);
+}
